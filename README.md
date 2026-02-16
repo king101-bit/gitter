@@ -2,6 +2,9 @@
 
 > Write better Git commits, faster, without thinking too hard.
 
+![gitter CLI demo](screenshots/demo.png)
+
+
 ---
 
 gitter is a simple CLI tool that helps you write consistent, meaningful Git commit messages. It reads your staged changes, prompts you for a type (`feat`, `fix`, etc.), and constructs a properly formatted commit message automatically.
