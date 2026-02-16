@@ -26,22 +26,12 @@ Stop thinking about “what do I write for this commit?” — gitter’s got yo
 ## 💿 Installation
 
 ```bash
-# Clone via SSH
-git clone git@github.com:king101-bit/gitter.git
+npm install -g @kingbit101/gitter
 
-# Clone via HTTPS
-git clone https://github.com/king101-bit/gitter.git
+# or
 
-# Clone using GitHub CLI
-gh repo clone king101-bit/gitter
+npx i @kingbit101/gitter
 
-cd gitter
-
-# Install dependencies (if any)
-npm install
-
-# Link globally so you can run `gitter` anywhere
-npm link
 ```
 
 
