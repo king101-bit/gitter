@@ -29,11 +29,14 @@ const ask = (q) =>
 (async () => {
     const type = await ask("type (feat, fix, docs, style, refactor, perf, test, chore): ");
     const desc = await ask("description: ");
+    const scope = await ask("Scope (optional):");
 
     rl.close();
 
+
+    const scopePart = scope ? `(${scope})` : '';
     const safeDesc = desc.replace(/"/g, '\\"');
-    const message = `${type}: ${safeDesc}`;
+    const message = `${type}${scopePart}: ${safeDesc}`;
 
     try {
         execSync(`git commit -m "${message}"`, { stdio: 'inherit', });

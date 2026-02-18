@@ -72,6 +72,28 @@ Ever stared at your terminal, thinking:
 Yeah… we’ve all been there. gitter removes the mental load so you can focus on coding instead of crafting the perfect commit message. It’s your personal Git sidekick. 🦸‍♂️ Just like Us and Bugs!
 
 
+## 🔖 Scope Support
+
+gitter supports optional commit scopes to make your commits more precise.
+
+When prompted, you can enter a scope (or leave it empty).
+
+### Example with scope
+
+```bash
+type (feat, fix, docs, style, refactor, perf, test, chore): feat
+description: add scope prompt
+Scope (optional): cli
+
+#Results
+-----------------------------------
+#Example with scope
+feat(cli): add scope prompt
+
+#Example without scope
+feat: add somestuff
+```
+
 ## 🎉 Contributing
 
 - Pull requests welcome
@@ -85,6 +107,6 @@ MIT License © 2026 Zack Agba
 
 ### 🔮 Coming Soon
 
-- **Scope support** (e.g., feat(auth): add login)
+~~--**Scope support** (e.g., feat(auth): add login)~~
 - **Auto-commit mode** for lightning-fast commits
 - **Better prompts** with arrow-key selection
