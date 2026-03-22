@@ -1,6 +1,6 @@
 {
   "name": "@kingbit101/gitter",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Interactive CLI tool for writing better Git commit messages",
   "main": "index.js",
   "type": "module",
